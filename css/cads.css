@@ -1,0 +1,192 @@
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    margin-top: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}.buttons a {
+    display: inline-block;
+    text-align: center;
+    padding: 17px 10px;
+    font-size: 26px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    color: #fff;
+    text-decoration: none;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: 0;
+}.buttons a.small {
+    width: 28%;
+}              
+
+.buttons a.medium {
+    width: 30%;
+}.buttons a.large {
+    width: 46%;
+}.buttons a.extra_large {
+    width: 96%;
+}.buttons-rounded.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    margin-top: 60px;
+}.buttons-rounded.row.center {
+    text-align: center;
+    justify-content: center;
+}.buttons-rounded.row.right {
+    text-align: right;
+    justify-content: flex-end;
+}.buttons-rounded.column {
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    margin: 0 20px;
+    margin-top: 60px;
+}.buttons-rounded.column a:not(:first-child) {
+    margin-top: 20px;
+} .buttons-rounded.column.left {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    justify-content: flex-start;
+}.buttons-rounded.column.center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}.buttons-rounded.column.right {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}.buttons-rounded a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}.buttons-column,
+.buttons-row {
+    display: flex !important;
+}.buttons-column {
+    flex-direction: column;
+} .buttons-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+}.buttons-center {
+    justify-content: center;
+    align-items: center;
+}.buttons-left {
+    justify-content: start;
+    align-items: start;
+}.buttons-right {
+    justify-content: end;
+    align-items: end;
+}.buttons-rounded.row a {
+    margin: 10px;
+}.buttons-rounded.row a.large .icon {
+    margin-top: 58px;
+}.buttons-rounded.row a.small .icon {
+    margin-top: 38px;
+}.buttons-rounded .label {
+    min-width: 0px;
+}.buttons-rounded .icon {
+    margin-bottom: 15px;
+    display: block;
+    font-size: 42px;
+}.buttons-rounded.buttons-column a,
+.buttons-rounded.buttons-row a {
+    display: flex;
+    margin: 1%;
+}.buttons-rounded .small {
+    display: inline-block;
+    width: 155px;
+    height: 155px;
+}.buttons-rounded .medium {
+    width: 165px;
+    height: 165px;
+}.buttons-rounded .large {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}.buttons-rounded .extra_large {
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+}.buttons a .icon {
+    margin-bottom: 15px;
+    display: block;
+    font-size: 42px;
+}.buttons a .icon.without-label {
+    margin-bottom: 0px;
+}.icon.phone::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f879';
+}.icon.whatsapp::before {
+    font-family: 'Font Awesome 5 Brands';
+    content: '\f232';
+}.icon.contact::before {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f2bb';
+}.icon.site::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f57d';
+}.icon.blog::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f09e';
+}.icon.virtual_store::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f07a';
+}.icon.address::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f279';
+}.icon.link::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f35d';
+}.icon.instagram::before {
+    font-family: 'Font Awesome 5 Brands';
+    content: '\f16d';
+}
